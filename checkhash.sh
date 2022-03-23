@@ -50,7 +50,7 @@ DETCHECKSUM=$(
 echo " "
 echo "Checksum is ${DETCHECKSUM}"
 
-if [ $GIVENCHECKSUM = $DETCHECKSUM ]; then
+if [[ $GIVENCHECKSUM = $DETCHECKSUM ]]; then
     echo "Checksum OK"
 else
     echo "Checksum Error !"
